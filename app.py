@@ -77,9 +77,9 @@ ax.set_xticks(range(len(ranking)))
 ax.set_xticklabels(ranking.index)
 ax.bar(ranking.index, ranking.values)
 
-ax.set_xlabel("stylist")
-ax.set_ylabel("sales")
-ax.set_title("ranking_of_stylist")
+ax.set_xlabel("Stylist")
+ax.set_ylabel("Sales (JPY)")
+ax.set_title("Sales by Stylist")
 
 plt.xticks(rotation=0)
 
