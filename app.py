@@ -3,6 +3,8 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib
 
+matplotlib.rcParams['font.family'] = 'DejaVu Sans'
+
 st.title("2026年3月売上結果")
 
 df = pd.read_excel("hairsalon_dashboard/hairsalon_sales_1month_varied.xlsx")
