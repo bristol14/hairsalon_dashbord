@@ -7,7 +7,7 @@ plt.rcParams['font.family'] = 'Hiragino Sans'
 
 st.title("2026年3月売上結果")
 
-df = pd.read_excel("hairsalom_dashboard/hairsalon_sales_1month_varied.xlsx")
+df = pd.read_excel("hairsalon_dashboard/hairsalon_sales_1month_varied.xlsx")
 
 stylist = st.selectbox("スタイリストを選択",["全員"] + list(df["スタイリスト"].unique()))
 
