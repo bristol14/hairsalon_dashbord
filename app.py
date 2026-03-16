@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib
+import japanize_matplotlib
 
 matplotlib.rcParams['font.family'] = 'DejaVu Sans'
 
